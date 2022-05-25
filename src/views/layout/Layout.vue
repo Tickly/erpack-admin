@@ -34,10 +34,14 @@ export default Vue.extend({
 }
 .ant-layout-header {
   padding: 8px;
+  line-height: 1;
   height: 56px;
   display: flex;
   align-items: center;
   background-color: #fff;
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 1px solid #d9d9d9;
+}
+.ant-layout-content{
+  padding: 8px;
 }
 </style>
