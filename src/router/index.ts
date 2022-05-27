@@ -50,6 +50,18 @@ const routes: Array<RouteConfig> = [
             ]
           }
         ]
+      },
+      {
+        path: 'user',
+        component: MenuView,
+        meta: { title: '用户管理' },
+        children: [
+          {
+            path: 'list',
+            meta: { title: '列表' },
+            component: () => import('../views/user/list')
+          }
+        ]
       }
     ]
   }
